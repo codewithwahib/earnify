@@ -89,7 +89,7 @@ const Signup = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div>
@@ -104,7 +104,7 @@ const Signup = () => {
               name="gender"
               value={formData.gender}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="" disabled>
                 Select Gender
@@ -127,7 +127,7 @@ const Signup = () => {
               name="country"
               value={formData.country}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div>
@@ -143,7 +143,7 @@ const Signup = () => {
               name="address"
               value={formData.address}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div>
@@ -159,7 +159,7 @@ const Signup = () => {
               name="password"
               value={formData.password}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div>
@@ -175,7 +175,7 @@ const Signup = () => {
               name="confirmPassword"
               value={formData.confirmPassword}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div>
@@ -191,7 +191,7 @@ const Signup = () => {
               name="accountNumber"
               value={formData.accountNumber}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div>
@@ -206,7 +206,7 @@ const Signup = () => {
               name="accountType"
               value={formData.accountType}
               onChange={handleChange}
-              className="w-full px-3 py-2 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="" disabled>
                 Select Account Type

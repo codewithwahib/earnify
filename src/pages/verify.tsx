@@ -35,26 +35,26 @@ const Verify = () => {
         </h2>
 
         {/* Text and Payment Details */}
-        <div className="text-black-700 mb-6">
-          <p className="text-xl font-bold">
+        <div className="text-black mb-6">
+          <p className="text-xl font-bold text-black">
             <strong>Earnify Membership Card Fees</strong>
           </p>
-          <p className="mt-4 text-xl font-bold">
+          <p className="mt-4 text-xl font-bold text-black">
             <strong>Total Amount You Will Pay in PKR:</strong>
           </p>
-          <p className="text-2xl font-extrabold text-blue-600">RS : 150</p>
-          <p className="mt-4 text-lg font-bold">
+          <p className="text-2xl text-black font-extrabold text-blue-600">RS : 150</p>
+          <p className="mt-4 text-lg  text-black font-bold">
             <strong>
               You will send this amount on the given EasyPaisa account number:
             </strong>
           </p>
-          <p className="text-lg font-semibold">
+          <p className="text-lg font-semibold text-black">
             <strong>EasyPaisa Account</strong>
           </p>
-          <p className="text-lg font-semibold">
+          <p className="text-lg font-semibold text-black">
             <strong>ACC NO:</strong> 03376565691
           </p>
-          <p className="text-lg font-semibold">
+          <p className="text-lg font-semibold text-black">
             <strong>ACC NAME:</strong> MUHAMMAD JAFFER
           </p>
         </div>
@@ -69,7 +69,7 @@ const Verify = () => {
           )}
 
           <div>
-            <label className="block mb-1 font-medium text-lg font-semibold">
+            <label className="block mb-1 font-medium text-lg text-black font-semibold">
               Sender Account Number
             </label>
             <input
@@ -77,12 +77,12 @@ const Verify = () => {
               value={senderAccount}
               onChange={(e) => setSenderAccount(e.target.value)}
               required
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           <div>
-            <label className="block mb-1 font-medium text-lg font-semibold">
+            <label className="block mb-1 font-medium text-lg text-black font-semibold">
               Transaction ID
             </label>
             <input
@@ -90,7 +90,7 @@ const Verify = () => {
               value={trxId}
               onChange={(e) => setTrxId(e.target.value)}
               required
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 border border-black rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
